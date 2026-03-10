@@ -7,27 +7,27 @@
 # Дан список: [Robin Singh], и 2 строки: "Welcome" и "airport". Напечатайте текст: “Hello, Robin Singh! Welcome to airport”
 # Дан список ["I", "love", "arrays", "they", "are", "my", "favorite"] сделайте из него строку => "I love arrays they are my favorite"
 # Создайте список из 10 элементов, вставьте на 3-ю позицию новое значение, удалите элемент из списка под индексом 6
-s1 = 'www.my_site#about'
-print(s1.replace("#", "/"))
-s2 = 'This is a test message'
-arr = s2.split()
-s2 = "ing ".join(arr)
-print(s2+"ing")
-s3 = 'Ivanou Ivan'
-done = " ".join(s3.split()[::-1])
+S1 = 'www.my_site#about'
+print(S1.replace("#", "/"))
+S2 = 'This is a test message'
+arr = S2.split()
+S2 = "ing ".join(arr)
+print(S2+"ing")
+S3 = 'Ivanou Ivan'
+done = " ".join(S3.split()[::-1])
 print(done)
-s4 = ' Hello '
-print(s4[1:-1])
-s5 = 'pARiS'
-print(s5.capitalize())
-s6 = 'Robin Singh'
-s7 = 'I love arrays they are my favorite'
-print(s6.split())
-print(s7.split())
+S4 = ' Hello '
+print(S4[1:-1])
+S5 = 'pARiS'
+print(S5.capitalize())
+S6 = 'Robin Singh'
+S7 = 'I love arrays they are my favorite'
+print(S6.split())
+print(S7.split())
 arr1 = ['Robin Singh']
-str1 = 'Welcome'
-str2 = 'airport'
-print("Hello,", arr1[0] + "!", str1, "to", str2)
+Str1 = 'Welcome'
+Str2 = 'airport'
+print("Hello,", arr1[0] + "!", Str1, "to", Str2)
 arr2 = ["I", "love", "arrays", "they", "are", "my", "favorite"]
 print(" ".join(arr2))
 arr10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
