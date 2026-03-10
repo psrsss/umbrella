@@ -23,6 +23,6 @@ print("Hello,", arr1[0] + "!", STR1, "to", STR2)
 arr2 = ["I", "love", "arrays", "they", "are", "my", "favorite"]
 print(" ".join(arr2))
 arr10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-arr10.insert(3, "new")
+arr10.insert(3, 18)
 del arr10[6]
 print(arr10)
