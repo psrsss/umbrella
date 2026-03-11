@@ -1,4 +1,4 @@
-"""Этот модуль выполняет домашнее задание №6"""
+"""This module implements homework6"""
 S1 = 'www.my_site#about'
 print(S1.replace("#", "/"))
 S2 = 'This is a test message'
