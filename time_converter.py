@@ -1,4 +1,4 @@
-# Time converter
+"""Time converter"""
 HOURS = int(input("Enter how many hours on your watch: "))
 MINUTES = int(input("Enter how many minutes on your watch: "))
 MM = f"{MINUTES:02d}"
