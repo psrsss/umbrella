@@ -1,4 +1,4 @@
-# Time
+"""Time"""
 N = int(input("Enter timer time: "))
 HOURS = int(N/60)
 MINUTES = N % 60
