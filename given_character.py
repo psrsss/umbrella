@@ -1,3 +1,6 @@
+"""Given character"""
+
+
 def solution(remove):
     result = []
     for item in remove:
