@@ -2,6 +2,7 @@
 
 
 def solution(remove):
+    """Removes unnecessary characters"""
     result = []
     for item in remove:
         if item == '#':
