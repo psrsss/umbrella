@@ -1,3 +1,6 @@
+"""Counting"""
+
+
 def solution(text):
     new_text = []
     item = text[0]
