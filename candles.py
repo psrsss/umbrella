@@ -2,7 +2,8 @@
 
 
 def solution(candle_number, make_new):
-    """Calculates how many candles there will be, taking into account the leftovers"""
+    """Calculates how many candles there will be, taking into account
+    the leftovers"""
     burnt = candle_number
     remainder = candle_number
     while remainder >= make_new:
