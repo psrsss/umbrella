@@ -1,4 +1,6 @@
 """Candles"""
+
+
 def solution(candle_number, make_new):
     burnt = candle_number
     remainder = candle_number
