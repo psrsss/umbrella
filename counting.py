@@ -2,6 +2,7 @@
 
 
 def solution(text):
+    """Searches for repeating letters in text"""
     new_text = []
     item = text[0]
     num = 0
