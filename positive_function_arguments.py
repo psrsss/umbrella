@@ -2,7 +2,9 @@
 
 
 def validate_arguments(func):
+    """Args decorator"""
     def wrapper(*args, **kwargs):
+        """Function wrapper"""
         all_args = list(args) + list(kwargs.values())
         for arg in all_args:
             if arg > 0:
@@ -15,6 +17,7 @@ def validate_arguments(func):
 
 @validate_arguments
 def multiply(a, b):
+    """Multiply a and b"""
     print(a * b)
 
 
