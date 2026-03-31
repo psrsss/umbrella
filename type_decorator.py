@@ -2,8 +2,11 @@
 
 
 def typed(type_):
+    """Decorator type"""
     def decorator(func):
+        """Inner decorator"""
         def wrapper(*args, **kwargs):
+            """Function wrapper"""
             converted_args = [type_(arg) for arg in args]
             converted_kwargs = {k: type_(v) for k, v in kwargs.items()}
             return func(*converted_args, **converted_kwargs)
