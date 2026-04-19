@@ -34,5 +34,5 @@ def get_file_stats():
         return "File Car.txt not found", 0, 0
 
 
-l, w, c = get_file_stats()
-print(f"Strings: {l}, Words: {w}, Letters: {c}")
+lines_count, words_count, letters_count = get_file_stats()
+print(f"Lines: {lines_count}, Words: {words_count}, Letters: {letters_count}")
